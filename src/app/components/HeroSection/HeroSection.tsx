@@ -46,7 +46,7 @@ const HeroSection: React.FC = () => {
             <Grid container spacing={3} sx={hero_banner_margin}>
                 <Grid item xl={7} lg={7} md={7} sm={12} xs={12} sx={hero_banner_left_style}>
                     <div style={banner_text_section}>
-                        <h1 className="text-[54px]"><b>I&apos;m <span id='dynamic-text' className='text-orange-500 after:bg-orange-500 after:w-[3px] after:h-[54px] after:absolute after:m-3'>{dynamicText}</span></b></h1>
+                        <h1 className="text-[54px]"><b>I am <span id='dynamic-text' className='text-orange-500 after:bg-orange-500 after:w-[3px] after:h-[54px] after:absolute after:m-3'>{dynamicText}</span></b></h1>
                         <p>{content.introduce_text}</p>
                     <Button variant='contained' size='large' className='mt-9 bg-orange-500 text-white hover:bg-white hover:text-orange-500' href='https://github.com/BaramateS' target='_blank' >View My GitHub Profile&emsp;<OpenInNewIcon/></Button>
                     </div>
