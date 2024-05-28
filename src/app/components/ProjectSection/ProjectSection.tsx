@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import { Grid, Card, CardActionArea, CardMedia, CardContent, Button } from "@mui/material";
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
@@ -22,7 +23,8 @@ const ProjectSection: React.FC = () => {
                     <Button variant='contained' size='large' className='mt-9 bg-orange-500 text-white hover:bg-white hover:text-orange-500' href='https://github.com/BaramateS/IT_Room_Reservation_and_Record.git' target='_blank' >View Repository...&emsp;<OpenInNewIcon /></Button>
                 </Grid>
                 <Grid item xl={12} lg={12} md={12} sm={12} xs={12} display={'flex'} justifyContent={'center'}>
-                    <img src="image/ITRoomAPP.png" alt="" width='1000px'/>
+                    <Image src={'/image/ITRoomAPP.png'} alt="ProjectPicture" width={1000} height={1000} />
+                    {/* <img src="image/ITRoomAPP.png" alt="" width='1000px'/> */}
                 </Grid>
             </Grid>
             <div style={{borderBottom: '2px solid #F97316', margin: '100px 0 0 0'}} />
