@@ -53,8 +53,7 @@ const HeroSection: React.FC = () => {
                 </Grid>
                 <Grid item xl={5} lg={5} md={5} sm={12} xs={12} >
                     <div className='flex items-center justify-center'>
-                        {/* <Image src={content.image_hero_section} alt={content.image_hero_section} width={'1000'} height={'1000'} /> */}
-                        <img src={content.image_hero_section} alt={content.image_hero_section} style={profile_picture_style} />
+                    <Image src={content.image_hero_section} alt="Profile Picture" width={1000} height={1000} style={profile_picture_style} />
                     </div>
                 </Grid>
             </Grid>
