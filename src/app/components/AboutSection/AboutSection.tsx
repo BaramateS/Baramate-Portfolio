@@ -75,7 +75,7 @@ const AboutSection: React.FC = () => {
                                 </div>
                             </Grid>
                             <Grid item xl={8} lg={8}>
-                                <h3 className="text-[20px]"><b>2020-2024 | King Mongkut's Institute of Technology Ladkrabang</b></h3>
+                                <h3 className="text-[20px]"><b>2020-2024 | King Mongkut&apos;s Institute of Technology Ladkrabang</b></h3>
                                 <p>Bachelor of Science Program in Information Technology, Multimedia and Game Development</p>
                                 <p>GPA: 2.78</p>
                                 <Button variant='contained' size='large' className='mt-9 bg-orange-500 text-white hover:bg-white hover:text-orange-500' href='https://drive.google.com/file/d/1HHDwELOeMW76aR5BPeaSEKHVGbBX-qS_/view?usp=sharing' target='_blank' >Unofficial Transcript&emsp;<OpenInNewIcon /></Button>
